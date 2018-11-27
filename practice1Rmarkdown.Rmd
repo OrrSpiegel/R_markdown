@@ -25,7 +25,12 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
+<<<<<<< HEAD
 plot(runif(100), main='random points')  
+=======
+plot(runif(100))
+plot(1:10)
+>>>>>>> 16b2b2b99dc09eac9895511da6213751bcd6c19a
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
